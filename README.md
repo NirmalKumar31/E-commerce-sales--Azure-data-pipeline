@@ -25,7 +25,10 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
 - Stored the data in **SQL database (`Sales_Data` table)**.  
 - Created a **watermark table (`last_load`)** to track incremental loads.  
 
-[📊 Pipeline Diagram till Stored Procedures](https://github.com/NirmalKumar31/E-commerce-sales--Azure-data-pipeline/blob/a90945d1be6bc5ee8d86cca5b767a6268a30d491/Model%20diagram%20and%20outputs/incremental%20load%20pipline(till%20updating%20watermark).png)
+**📊Pipeline Diagram till Stored Procedures**:
+![Pipeline Diagram till Stored Procedures](https://github.com/NirmalKumar31/E-commerce-sales--Azure-data-pipeline/blob/a90945d1be6bc5ee8d86cca5b767a6268a30d491/Model%20diagram%20and%20outputs/incremental%20load%20pipline(till%20updating%20watermark).png)
+
+---
 
 ### 🔹 **Incremental Pipeline in ADF**
 📌 **Why?** Incremental loading reduces processing time and ensures up-to-date data.  

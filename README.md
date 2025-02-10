@@ -25,15 +25,15 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
 - Stored the data in **SQL database (`Sales_Data` table)**.  
 - Created a **watermark table (`last_load`)** to track incremental loads.  
 
-![📊 Pipeline Diagram](path/to/pipeline-diagram.png)
+![📊 Pipeline Diagram till Stored Procedures](Model diagram and outputs/incremental load pipline(till updating watermark).png)
 
 ### 🔹 **Incremental Pipeline in ADF**
 📌 **Why?** Incremental loading reduces processing time and ensures up-to-date data.  
 🛠️ **What I Used?** Lookup activities, Copy activity, and SQL Stored Procedures.  
 ⚙️ **How I Did It?**  
 - **Lookup Activities**:  
-  - `last_load` to fetch the last successful timestamp.  
-  - `current_load` to retrieve the latest timestamp from `Sales_Data`.  
+  - `last_load` to fetch the last successful Date_ID.  
+  - `current_load` to retrieve the latest Date_ID from `Sales_Data`.  
 - **Copy Data**: Extracted **new records** (between `last_load` and `current_load`) to **bronze layer (Parquet format)** in ADLS.  
 - **Stored Procedure**: Updated the **watermark table** after each successful execution.  
 

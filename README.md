@@ -50,7 +50,7 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
   - Load **bronze data** → apply transformations → store in **silver layer**.  
   - Further refine **silver data** → create **fact & dimension tables** → store in **gold layer**.  
 
-![📈 Transformation Results](path/to/transformation-results.png)
+![📈 Transformation Results](https://github.com/NirmalKumar31/E-commerce-sales--Azure-data-pipeline/tree/2d00bf34fa6971f086dc76d5d5b41a53caab3724/Visualizations%20and%20project%20resource%20details)
 
 ### 🔹 **Star Schema & SCD Type 1**
 📌 **Why?**  
@@ -91,7 +91,7 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
 - **Silver Layer Analysis**:  
   - Extracted `model_category` from Model_ID.  
   - Aggregated **monthly revenue & units sold per year**.  
-  - Analyzed **revenue per unit**.  
+  - Performed **AD-HOC analysis - revenue per unit**.  
 - **Gold Layer**:  
   - Created **final fact and dimension tables**.  
   - Built **branch-wise sales revenue analysis**.  

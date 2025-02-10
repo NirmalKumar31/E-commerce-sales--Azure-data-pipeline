@@ -2,7 +2,7 @@
 
 📅 **Date:** January, 2025  
 👤 **Author:** Nirmalkumar Thirupallikrishnan Kesavan  
-🛠️ **Tech Stack:** Azure Data Factory (ADF), Azure Data Lake Storage (ADLS), Azure Databricks, SQL Server, Delta Lake, PySpark, Apache Spark, Apache Hive, Azure Synapse Analytics, Power BI, Azure Monitor, Azure Key Vault, Azure DevOps  
+🛠️ **Tech Stack:** Azure Data Factory (ADF), Azure Data Lake Storage (ADLS), Azure Databricks, SQL Server, Delta Lake, PySpark, Apache Spark, Apache Hive, Azure Synapse Analytics, Power BI, Azure Monitor, Azure Key Vault, Azure DevOps, SQL, Data Analysis, ETL pipeline, SCD Type 1, STAR Schema, Data Modelling, Data Warehousing  
 
 ---
 
@@ -68,6 +68,11 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
 - Created a **Databricks Job** to execute transformation notebooks.  
 - Successfully ran transformations and validated data outputs.  
 
+**📊Databricks ETL Pipeline to create facts and dimensions using SCD TYPE-1 and STAR Schema**:
+![Databricks ETL Pipeline to create facts and dimensions using SCD TYPE-1 and STAR Schema](https://github.com/NirmalKumar31/E-commerce-sales--Azure-data-pipeline/blob/5cb723871b07968749285f8ea8f7d40a227a1090/Model%20diagram%20and%20outputs/databricks%20pipeline%20model%20and%20execution.png)
+
+---
+
 ### 🔹 **End-to-End ADF Pipeline**
 📌 **Why?** Automating the entire workflow ensures consistency and reliability.  
 🛠️ **What I Used?** ADF to trigger Databricks Notebooks.  
@@ -75,6 +80,9 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
 - Integrated the **incremental ADF pipeline** with **Databricks Notebooks**.  
 - Triggered Databricks transformations automatically after ingestion.  
 - Successfully executed **full data pipeline from ingestion to star schema modeling**.  
+
+**📊Azure Data Factory end-to-end Incremental Pipeline connected with databricks to create facts and dimensions SCD Type-1 with STAR Schema**:
+![Azure Data Factory end-to-end Incremental Pipeline connected with databricks to create facts and dimensions SCD Type-1 with STAR Schema](https://github.com/NirmalKumar31/E-commerce-sales--Azure-data-pipeline/blob/5cb723871b07968749285f8ea8f7d40a227a1090/Model%20diagram%20and%20outputs/end-to-end%20pipeline%20(ADF)%20Model.png)
 
 ## 📊 Insights & Visualizations
 📌 **Why?** Data insights enable better decision-making.  
@@ -89,7 +97,7 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
   - Built **branch-wise sales revenue analysis**.  
   - Visualized **trends using Databricks charts**.  
 
-![📊 Visualization Results](path/to/visualization-results.png)
+![📊 Visualization Results](https://github.com/NirmalKumar31/E-commerce-sales--Azure-data-pipeline/tree/5cb723871b07968749285f8ea8f7d40a227a1090/Visualizations%20and%20project%20resource%20details)
 
 ## 🎯 Conclusion
 ✅ **Efficient incremental data loading using ADF.**  

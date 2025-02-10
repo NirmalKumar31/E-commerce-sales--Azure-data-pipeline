@@ -14,7 +14,7 @@ This project showcases an end-to-end **Azure Data Factory (ADF) and Databricks i
 ## 🏗️ Concepts & Rationale
 ### 🔹 **Azure Resource Group**
 📌 **Why?** Resource grouping enables centralized management of Azure components for cost tracking and security.  
-🛠️ **What I Used?** Azure Data Factory (ADF), Azure Data Lake Storage (ADLS), Azure Databricks, SQL Server & SQL Database, and Access Connector.  
+🛠️ **What I Used?** Azure Data Factory (ADF), Azure Data Lake Storage (ADLS), Azure Databricks, SQL Server & SQL Database, and Access Connector. [📊My resources](https://github.com/NirmalKumar31/E-commerce-sales--Azure-data-pipeline/blob/9f5a7b8b6f58a8881537842e5a523c80525019b9/Visualizations%20and%20project%20resource%20details/Azure%20resource%20group.png)  
 ⚙️ **How I Did It?** Created a resource group in **UK South**, ensuring all components exist in the same region for optimal performance.
 
 ### 🔹 **Data Ingestion & Initial Load**

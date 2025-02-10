@@ -1,0 +1,12 @@
+%sql
+```
+create procedure UpdateWatermarkTable
+@lastload varchar(200)
+as
+begin 
+    begin transaction;
+update watermarktable
+set last_load = @lastload
+commit transaction;
+end;
+```
